@@ -5,7 +5,7 @@
 mysql  Ver 15.1 Distrib 10.3.28-MariaDB, for Linux (x86_64) using readline 5.1
 ```
 
-DB sturcture
+##DB sturcture
 it will create table "wattrouter_stat_day" with UTF8_Czech colation
 
 ```sql
@@ -50,4 +50,5 @@ CREATE TABLE `wattrouter_stat_day` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_czech_ci;
 ```
 
-
+whole DB dump is in file: 
+<a href="./example-mysql-dump.sql">example-mysql-dump.sql</a>
