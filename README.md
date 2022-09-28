@@ -52,3 +52,14 @@ CREATE TABLE `wattrouter_stat_day` (
 
 whole DB dump is in file: 
 <a href="./example-mysql-dump.sql">example-mysql-dump.sql</a>
+
+
+
+### CRONTAB
+
+add line below to the "/etc/crontab" file. It will 
+
+```bash
+59 23 * * *     root    php /PATH_TO_THE_FILE/cron-fve-insert-to-mysql.php
+```
+
